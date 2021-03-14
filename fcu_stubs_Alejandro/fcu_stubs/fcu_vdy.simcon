@@ -1,0 +1,46 @@
+
+[Request2ProvideConnections]
+CfgSectionType=Request2ProvideConnection
+
+SIM VDY.ps_rOdometer_Odometer = FCU VDY.ps_rOdometer_Odometer
+SIM VDY.ps_rEnvTemp_EnvTemp = FCU VDY.ps_rEnvTemp_EnvTemp
+SIM VDY.ps_rVehVelocityExt_VehVelocityExt = FCU VDY.ps_rVehVelocityExt_VehVelocityExt
+SIM VDY.ps_rVehLongAccelExt_VehLongAccelExt = FCU VDY.ps_rVehLongAccelExt_VehLongAccelExt
+SIM VDY.ps_rFogLampRear_FogLampRear = FCU VDY.ps_rFogLampRear_FogLampRear
+SIM VDY.ps_rWhlVelFrRight_WhlVelFrRight = FCU VDY.ps_rWhlVelFrRight_WhlVelFrRight
+SIM VDY.ps_rState_VehLongAccelExt_State_VehLongAccelExt = FCU VDY.ps_rState_VehLongAccelExt_State_VehLongAccelExt
+SIM VDY.ps_rWhlVelReLeft_WhlVelReLeft = FCU VDY.ps_rWhlVelReLeft_WhlVelReLeft
+SIM VDY.ps_reHeightLevel_eHeightLevel = FCU VDY.ps_reHeightLevel_eHeightLevel
+SIM VDY.ps_rGasPedalPos_GasPedalPos = FCU VDY.ps_rGasPedalPos_GasPedalPos
+SIM VDY.ps_rState_VehVelocity_State_VehVelocity = FCU VDY.ps_rState_VehVelocity_State_VehVelocity
+SIM VDY.ps_rState_ActGearPos_State_ActGearPos = FCU VDY.ps_rState_ActGearPos_State_ActGearPos
+SIM VDY.ps_rActualGear_ActualGear = FCU VDY.ps_rActualGear_ActualGear
+SIM VDY.ps_rState_YawRate_State_YawRate = FCU VDY.ps_rState_YawRate_State_YawRate
+SIM VDY.ps_rTrailerConnection_TrailerConnection = FCU VDY.ps_rTrailerConnection_TrailerConnection
+SIM VDY.ps_rYawRate_YawRate = FCU VDY.ps_rYawRate_YawRate
+SIM VDY.ps_rFogLampFront_FogLampFront = FCU VDY.ps_rFogLampFront_FogLampFront
+SIM VDY.ps_rState_WhlVelFrLeft_State_WhlVelFrLeft = FCU VDY.ps_rState_WhlVelFrLeft_State_WhlVelFrLeft
+SIM VDY.ps_rActGearPos_ActGearPos = FCU VDY.ps_rActGearPos_ActGearPos
+SIM VDY.ps_rState_WhlVelReLeft_State_WhlVelReLeft = FCU VDY.ps_rState_WhlVelReLeft_State_WhlVelReLeft
+SIM VDY.ps_rVehLongDirExt_VehLongDirExt = FCU VDY.ps_rVehLongDirExt_VehLongDirExt
+SIM VDY.ps_rState_WhlVelReRight_State_WhlVelReRight = FCU VDY.ps_rState_WhlVelReRight_State_WhlVelReRight
+SIM VDY.ps_rWiperStage_WiperStage = FCU VDY.ps_rWiperStage_WiperStage
+SIM VDY.ps_rState_GasPedalPos_State_GasPedalPos = FCU VDY.ps_rState_GasPedalPos_State_GasPedalPos
+SIM VDY.ps_rStateBrakeActLevel_StateBrakeActLevel = FCU VDY.ps_rStateBrakeActLevel_StateBrakeActLevel
+SIM VDY.ps_rLatAccel_LatAccel = FCU VDY.ps_rLatAccel_LatAccel
+SIM VDY.ps_rTurnSignal_TurnSignal = FCU VDY.ps_rTurnSignal_TurnSignal
+SIM VDY.ps_rBrakeActLevel_BrakeActLevel = FCU VDY.ps_rBrakeActLevel_BrakeActLevel
+SIM VDY.ps_rState_WhlVelFrRight_State_WhlVelFrRight = FCU VDY.ps_rState_WhlVelFrRight_State_WhlVelFrRight
+SIM VDY.ps_rState_StWheelAngle_State_StWheelAngle = FCU VDY.ps_rState_StWheelAngle_State_StWheelAngle
+SIM VDY.ps_rSpeedoSpeed_SpeedoSpeed = FCU VDY.ps_rSpeedoSpeed_SpeedoSpeed
+SIM VDY.ps_rParkBrake_ParkBrake = FCU VDY.ps_rParkBrake_ParkBrake
+SIM VDY.ps_rWhlVelFrLeft_WhlVelFrLeft = FCU VDY.ps_rWhlVelFrLeft_WhlVelFrLeft
+SIM VDY.ps_rState_LatAccel_State_LatAccel = FCU VDY.ps_rState_LatAccel_State_LatAccel
+SIM VDY.ps_rDriverBraking_DriverBraking = FCU VDY.ps_rDriverBraking_DriverBraking
+SIM VDY.ps_rVehLongMotStateExt_VehLongMotStateExt = FCU VDY.ps_rVehLongMotStateExt_VehLongMotStateExt
+SIM VDY.ps_rSpeedUnit_SpeedUnit = FCU VDY.ps_rSpeedUnit_SpeedUnit
+SIM VDY.ps_rWiperState_WiperState = FCU VDY.ps_rWiperState_WiperState
+SIM VDY.ps_rStWheelAngle_StWheelAngle = FCU VDY.ps_rStWheelAngle_StWheelAngle
+SIM VDY.ps_rWhlVelReRight_WhlVelReRight = FCU VDY.ps_rWhlVelReRight_WhlVelReRight
+SIM VDY.ps_rStateParkBrake_StateParkBrake = FCU VDY.ps_rStateParkBrake_StateParkBrake
+SIM VDY.ps_rWiperOutParkPos_WiperOutParkPos = FCU VDY.ps_rWiperOutParkPos_WiperOutParkPos

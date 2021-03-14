@@ -1,0 +1,351 @@
+{
+    "exporter": {
+        "default": {
+            "cycle_id": "0x41",
+            "name": "Sil Sil Exporter",
+            "test_type": "edp_sil",
+            "rec_file_extension": "",
+            "signals": []
+        }
+    },
+    "signals": {
+        
+        "ACAL.pAcalOutput": {
+            "meas_freezes": [
+                "ACAL.pAcalOutput.eolOutput.sPoseCalibration.fPitch",
+				"ACAL.pAcalOutput.eolOutput.sPoseCalibration.fRoll",
+				"ACAL.pAcalOutput.eolOutput.sPoseCalibration.fYaw",
+				"ACAL.pAcalOutput.eolOutput.sPoseCalibration.fTx",
+				"ACAL.pAcalOutput.eolOutput.sPoseCalibration.fTy",
+				"ACAL.pAcalOutput.eolOutput.sPoseCalibration.fTz",
+				"ACAL.pAcalOutput.eolOutput.sPoseCalibration.uiTotalAngleQuality",
+				"ACAL.pAcalOutput.eolOutput.sPoseCalibration.uiTotalTranslQuality"
+            ]
+        },     
+
+        "ACAL.pAlgoCompState": {
+            "meas_freezes": [
+                "ACAL.pAcalOutCompState.eCompState"
+            ]
+        },     
+
+        "CB.pCbOutputs": {
+            "meas_freezes": [
+                "CB.pCbRteOut.ui8_BlockageStatus",
+				"CB.pCbRteOut.ui8_WeatherCondition",
+				"CB.pCbRteOut.ui8_BrightnessStatus",
+				"CB.pCbRteOut.sSigHeader.uiMeasurementCounter"
+            ]
+        },     
+
+        "CB.pAlgoCompState": {
+            "meas_freezes": [
+                "CB.pCbAlgoCompState.eCompState"
+            ]
+        },     
+
+        "EM.pGenObjectList": {
+            "meas_freezes": [
+                "EM.EmGenObjectList.HeaderObjList.iNumOfUsedObjects",
+				"EM.EmGenObjectList.aObject[0].Kinematic.fDistX",
+				"EM.EmGenObjectList.aObject[0].Kinematic.fDistY",
+				"EM.EmGenObjectList.sSigHeader.uiMeasurementCounter"
+            ]
+        },     
+
+        "EM.pAlgoCompState": {
+            "meas_freezes": [
+                "EM.EmAlgoCompState.eCompState"
+            ]
+        },     
+
+        "EMO.pEmoOutput": {
+            "meas_freezes": [
+                "EMO.EmoOutput.EmoWorldToWorld.sRotTrans.fRoll",
+				"EMO.EmoOutput.EmoWorldToWorld.sRotTrans.fPitch",
+				"EMO.EmoOutput.EmoWorldToWorld.sRotTrans.fYaw",
+				"EMO.EmoOutput.EmoWorldToWorld.sRotTrans.fTx",
+				"EMO.EmoOutput.EmoWorldToWorld.sRotTrans.fTy",
+				"EMO.EmoOutput.EmoWorldToWorld.sRotTrans.fTz",
+				"EMO.EmoOutput.EmoWorldToWorld.EmoVelocity.fWroll",
+				"EMO.EmoOutput.EmoWorldToWorld.EmoVelocity.fWpitch",
+				"EMO.EmoOutput.EmoWorldToWorld.EmoVelocity.fWyaw",
+				"EMO.EmoOutput.EmoWorldToWorld.EmoVelocity.fVx",
+				"EMO.EmoOutput.EmoWorldToWorld.EmoVelocity.fVy",
+				"EMO.EmoOutput.EmoWorldToWorld.EmoVelocity.fVz",
+				"EMO.EmoOutput.EmoWorldToWorld.fDeltaT",
+				"EMO.EmoOutput.EmoWorldToCamInstant.sPose.fRoll",
+				"EMO.EmoOutput.EmoWorldToCamInstant.sPose.fPitch",
+				"EMO.EmoOutput.EmoWorldToCamInstant.sPose.fYaw",
+				"EMO.EmoOutput.EmoWorldToCamInstant.sPose.fTx",
+				"EMO.EmoOutput.EmoWorldToCamInstant.sPose.fTy",
+				"EMO.EmoOutput.EmoWorldToCamInstant.sPose.fTz",
+				"EMO.EmoOutput.EmoWorldToCamInstant.sVanishPoint.fX",
+				"EMO.EmoOutput.EmoWorldToCamInstant.sVanishPoint.fY",
+				"EMO.EmoOutput.EmoCamToCam.sRotTrans.fRoll",
+				"EMO.EmoOutput.EmoCamToCam.sRotTrans.fPitch",
+				"EMO.EmoOutput.EmoCamToCam.sRotTrans.fYaw",
+				"EMO.EmoOutput.EmoCamToCam.sRotTrans.fTx",
+				"EMO.EmoOutput.EmoCamToCam.sRotTrans.fTy",
+				"EMO.EmoOutput.EmoCamToCam.sRotTrans.fTz",
+				"EMO.EmoOutput.sSigHeader.uiMeasurementCounter"
+            ]
+        },     
+
+        "EMO.pAlgoCompState": {
+            "meas_freezes": [
+                "EMO.EmoCompState.eCompState"
+            ]
+        },     
+
+        "HLA.pHlaf_HeadlightControl": {
+            "meas_freezes": [
+                "HLA.RTE_HLAF_HeadlightControl.Common.CityState",
+				"HLA.RTE_HLAF_HeadlightControl.Common.TunnelState",
+				"HLA.RTE_HLAF_HeadlightControl.Common.MotorwayState",
+				"HLA.RTE_HLAF_HeadlightControl.Matrix.HighBeamState",
+				"HLA.RTE_HLAF_HeadlightControl.sSigHeader.uiMeasurementCounter"
+            ]
+        },     
+
+        "HLA.pAlgoCompState": {
+            "meas_freezes": [
+                "HLA.HlaAlgoCompState.eCompState"
+            ]
+        },     
+
+        "LD.pLdOutput": {
+            "meas_freezes": [
+                "LD.LdOutput.road.ego.laneEvents.laneChangeEvent.available",
+				"LD.LdOutput.road.ego.laneEvents.laneChangeEvent.side",
+				"LD.LdOutput.road.roadEdgeLeft.available",
+				"LD.LdOutput.road.roadEdgeLeft.clothoidNear.offset",
+				"LD.LdOutput.road.roadEdgeLeft.clothoidNear.yawAngle",
+				"LD.LdOutput.road.roadEdgeLeft.clothoidNear.curvature",
+				"LD.LdOutput.road.roadEdgeLeft.clothoidNear.curvatureRate",
+				"LD.LdOutput.road.roadEdgeLeft.clothoidNear.validFrom",
+				"LD.LdOutput.road.roadEdgeLeft.clothoidNear.validTo",
+				"LD.LdOutput.road.ego.left.available",
+				"LD.LdOutput.road.ego.left.clothoidNear.offset",
+				"LD.LdOutput.road.ego.left.clothoidNear.yawAngle",
+				"LD.LdOutput.road.ego.left.clothoidNear.curvature",
+				"LD.LdOutput.road.ego.left.clothoidNear.curvatureRate",
+				"LD.LdOutput.road.ego.left.clothoidNear.validFrom",
+				"LD.LdOutput.road.ego.left.clothoidNear.validTo",
+				"LD.LdOutput.road.ego.right.available",
+				"LD.LdOutput.road.ego.right.clothoidNear.offset",
+				"LD.LdOutput.road.ego.right.clothoidNear.yawAngle",
+				"LD.LdOutput.road.ego.right.clothoidNear.curvature",
+				"LD.LdOutput.road.ego.right.clothoidNear.curvatureRate",
+				"LD.LdOutput.road.ego.right.clothoidNear.validFrom",
+				"LD.LdOutput.road.ego.right.clothoidNear.validTo",
+				"LD.LdOutput.road.roadEdgeRight.available",
+				"LD.LdOutput.road.roadEdgeRight.clothoidNear.offset",
+				"LD.LdOutput.road.roadEdgeRight.clothoidNear.yawAngle",
+				"LD.LdOutput.road.roadEdgeRight.clothoidNear.curvature",
+				"LD.LdOutput.road.roadEdgeRight.clothoidNear.curvatureRate"
+            ]
+        },     
+
+        "LD.pAlgoCompState": {
+            "meas_freezes": [
+                "LD.AlgoCompState.eCompState"
+            ]
+        },     
+
+        "LMK.pGenLandmarkList": {
+            "meas_freezes": [
+                "LMK.LmkGenLandmarkList.HeaderLmkList.iNumOfUsedLandmarks",
+				"LMK.LmkGenLandmarkList.aLandmark[0].uId",
+				"LMK.LmkGenLandmarkList.aLandmark[0].Generics.Position.fDistX",
+				"LMK.LmkGenLandmarkList.aLandmark[0].Generics.Position.fDistXStd",
+				"LMK.LmkGenLandmarkList.aLandmark[0].Generics.Position.fDistY",
+				"LMK.LmkGenLandmarkList.aLandmark[0].Generics.Position.fDistYStd",
+				"LMK.LmkGenLandmarkList.aLandmark[0].Generics.Position.fDistZ",
+				"LMK.LmkGenLandmarkList.aLandmark[0].Generics.Position.fDistZStd",
+				"LMK.LmkGenLandmarkList.aLandmark[0].Generics.Geometry.fWidth",
+				"LMK.LmkGenLandmarkList.aLandmark[0].Generics.Geometry.fWidthStd",
+				"LMK.LmkGenLandmarkList.aLandmark[0].Generics.Geometry.fHeight",
+				"LMK.LmkGenLandmarkList.aLandmark[0].Generics.Geometry.fHeightStd",
+				"LMK.LmkGenLandmarkList.aLandmark[0].Generics.eMaintenanceState",
+				"LMK.LmkGenLandmarkList.aLandmark[0].Generics.eTrackStatus",
+				"LMK.LmkGenLandmarkList.aLandmark[0].Specifics.eClassification",
+				"LMK.LmkGenLandmarkList.aLandmark[0].Specifics.TrafficSign.uNumOfSupplSigns",
+				"LMK.LmkGenLandmarkList.aLandmark[1].uId",
+				"LMK.LmkGenLandmarkList.aLandmark[1].Generics.Position.fDistX",
+				"LMK.LmkGenLandmarkList.aLandmark[1].Generics.Position.fDistXStd",
+				"LMK.LmkGenLandmarkList.aLandmark[1].Generics.Position.fDistY",
+				"LMK.LmkGenLandmarkList.aLandmark[1].Generics.Position.fDistYStd",
+				"LMK.LmkGenLandmarkList.aLandmark[1].Generics.Position.fDistZ",
+				"LMK.LmkGenLandmarkList.aLandmark[1].Generics.Position.fDistZStd",
+				"LMK.LmkGenLandmarkList.aLandmark[1].Generics.Geometry.fWidth",
+				"LMK.LmkGenLandmarkList.aLandmark[1].Generics.Geometry.fWidthStd",
+				"LMK.LmkGenLandmarkList.aLandmark[1].Generics.Geometry.fHeight",
+				"LMK.LmkGenLandmarkList.aLandmark[1].Generics.Geometry.fHeightStd",
+				"LMK.LmkGenLandmarkList.aLandmark[1].Generics.eMaintenanceState",
+				"LMK.LmkGenLandmarkList.aLandmark[1].Generics.eTrackStatus",
+				"LMK.LmkGenLandmarkList.aLandmark[1].Specifics.eClassification",
+				"LMK.LmkGenLandmarkList.aLandmark[1].Specifics.TrafficSign.uNumOfSupplSigns",
+				"LMK.LmkGenLandmarkList.sSigHeader.uiMeasurementCounter"
+            ]
+        },     
+
+        "LMK.pAlgoCompState": {
+            "meas_freezes": [
+                "LMK.LmkAlgoCompState.eCompState"
+            ]
+        },     
+
+        "LSD.pLightObjectList": {
+            "meas_freezes": [
+                "LSD.LsdProPortLightObjectList.numObjects",
+				"LSD.LsdProPortLightObjectList.sSigHeader.uiMeasurementCounter"
+            ]
+        },     
+
+        "LSD.pLightList": {
+            "meas_freezes": [
+                "LSD.LsdProPortLightList.numLights"
+            ]
+        },     
+
+        "LSD.pAlgoCompState": {
+            "meas_freezes": [
+                "LSD.LsdProPortAlgoCompState.eCompState"
+            ]
+        },     
+
+        "RUM.pRum2Clusters": {
+            "meas_freezes": [
+                "RUM.Rum2Clusters.sNrOfRelevantClusters",
+				"RUM.Rum2Clusters.sSigHeader.uiMeasurementCounter"
+            ]
+        },     
+
+        "RUM.pRum2ImgProcRsps": {
+            "meas_freezes": [
+                "RUM.Rum2ImageProcessingResponses.Rum2ImgProcRsp[0].turnLeftRsp.fConfidence",
+				"RUM.Rum2ImageProcessingResponses.Rum2ImgProcRsp[0].turnRightRsp.fConfidence",
+				"RUM.Rum2ImageProcessingResponses.Rum2ImgProcRsp[1].turnLeftRsp.fConfidence",
+				"RUM.Rum2ImageProcessingResponses.Rum2ImgProcRsp[1].turnRightRsp.fConfidence",
+				"RUM.Rum2ImageProcessingResponses.Rum2ImgProcRsp[2].turnLeftRsp.fConfidence",
+				"RUM.Rum2ImageProcessingResponses.Rum2ImgProcRsp[2].turnRightRsp.fConfidence",
+				"RUM.Rum2ImageProcessingResponses.Rum2ImgProcRsp[3].turnLeftRsp.fConfidence",
+				"RUM.Rum2ImageProcessingResponses.Rum2ImgProcRsp[3].turnRightRsp.fConfidence",
+				"RUM.Rum2ImageProcessingResponses.Rum2ImgProcRsp[4].turnLeftRsp.fConfidence",
+				"RUM.Rum2ImageProcessingResponses.Rum2ImgProcRsp[4].turnRightRsp.fConfidence"
+            ]
+        },     
+
+        "RUM.pAlgoCompState": {
+            "meas_freezes": [
+                "RUM.RumAlgoCompState.eCompState"
+            ]
+        },     
+
+        "SR.pSrDetectionOutput": {
+            "meas_freezes": [
+                "SR.SR_DetectionOutput.numberOfDetections",
+				"SR.SR_DetectionOutput.detections[0].objectGroupingID",
+				"SR.SR_DetectionOutput.detections[0].signType",
+				"SR.SR_DetectionOutput.detections[0].signsInGroup",
+				"SR.SR_DetectionOutput.detections[0].signID",
+				"SR.SR_DetectionOutput.detections[0].age",
+				"SR.SR_DetectionOutput.detections[0].measurementStatus",
+				"SR.SR_DetectionOutput.detections[1].objectGroupingID",
+				"SR.SR_DetectionOutput.detections[1].signType",
+				"SR.SR_DetectionOutput.detections[1].signsInGroup",
+				"SR.SR_DetectionOutput.detections[1].signID",
+				"SR.SR_DetectionOutput.detections[1].age",
+				"SR.SR_DetectionOutput.detections[1].measurementStatus",
+				"SR.SR_DetectionOutput.detections[2].objectGroupingID",
+				"SR.SR_DetectionOutput.detections[2].signType",
+				"SR.SR_DetectionOutput.detections[2].signsInGroup",
+				"SR.SR_DetectionOutput.detections[2].signID",
+				"SR.SR_DetectionOutput.detections[2].age",
+				"SR.SR_DetectionOutput.detections[2].measurementStatus",
+				"SR.SR_DetectionOutput.detections[3].objectGroupingID",
+				"SR.SR_DetectionOutput.detections[3].signType",
+				"SR.SR_DetectionOutput.detections[3].signsInGroup",
+				"SR.SR_DetectionOutput.detections[3].signID",
+				"SR.SR_DetectionOutput.detections[3].age",
+				"SR.SR_DetectionOutput.detections[3].measurementStatus",
+				"SR.SR_DetectionOutput.detections[4].objectGroupingID",
+				"SR.SR_DetectionOutput.detections[4].signType",
+				"SR.SR_DetectionOutput.detections[4].signsInGroup",
+				"SR.SR_DetectionOutput.detections[4].signID",
+				"SR.SR_DetectionOutput.detections[4].age",
+				"SR.SR_DetectionOutput.detections[4].measurementStatus",
+				"SR.SR_DetectionOutput.detections[5].objectGroupingID",
+				"SR.SR_DetectionOutput.detections[5].signType",
+				"SR.SR_DetectionOutput.detections[5].signsInGroup",
+				"SR.SR_DetectionOutput.detections[5].signID",
+				"SR.SR_DetectionOutput.detections[5].age",
+				"SR.SR_DetectionOutput.detections[5].measurementStatus",
+				"SR.SR_DetectionOutput.detections[6].objectGroupingID",
+				"SR.SR_DetectionOutput.detections[6].signType",
+				"SR.SR_DetectionOutput.detections[6].signsInGroup",
+				"SR.SR_DetectionOutput.detections[6].signID",
+				"SR.SR_DetectionOutput.detections[6].age",
+				"SR.SR_DetectionOutput.detections[6].measurementStatus",
+				"SR.SR_DetectionOutput.detections[7].objectGroupingID",
+				"SR.SR_DetectionOutput.detections[7].signType",
+				"SR.SR_DetectionOutput.detections[7].signsInGroup",
+				"SR.SR_DetectionOutput.detections[7].signID",
+				"SR.SR_DetectionOutput.detections[7].age",
+				"SR.SR_DetectionOutput.detections[7].measurementStatus",
+				"SR.SR_DetectionOutput.detections[8].objectGroupingID",
+				"SR.SR_DetectionOutput.detections[8].signType",
+				"SR.SR_DetectionOutput.detections[8].signsInGroup",
+				"SR.SR_DetectionOutput.detections[8].signID",
+				"SR.SR_DetectionOutput.detections[8].age",
+				"SR.SR_DetectionOutput.detections[8].measurementStatus",
+				"SR.SR_DetectionOutput.detections[9].objectGroupingID",
+				"SR.SR_DetectionOutput.detections[9].signType",
+				"SR.SR_DetectionOutput.detections[9].signsInGroup",
+				"SR.SR_DetectionOutput.detections[9].signID",
+				"SR.SR_DetectionOutput.detections[9].age",
+				"SR.SR_DetectionOutput.detections[9].measurementStatus",
+				"SR.SR_DetectionOutput.sSigHeader.uiMeasurementCounter"
+            ]
+        },     
+
+        "SR.pAlgoCompState": {
+            "meas_freezes": [
+                "SR.SrAlgoCompState.eCompState"
+            ]
+        },     
+
+        "TSA.pTsaOutputResults": {
+            "meas_freezes": [
+                "TSA.TsaRteOutputResults.countryResults.estCountryCode",
+				"TSA.TsaRteOutputResults.countryResults.estTrafficStyle",
+				"TSA.TsaRteOutputResults.countryResults.estSpdUnt",
+				"TSA.TsaRteOutputResults.countryResults.countryCode",
+				"TSA.TsaRteOutputResults.countryResults.trafficStyle",
+				"TSA.TsaRteOutputResults.countryResults.spdUnt",
+				"TSA.TsaRteOutputResults.npaResults.noPassingStatus",
+				"TSA.TsaRteOutputResults.npaResults.warning",
+				"TSA.TsaRteOutputResults.npaResults.noPassingValidity",
+				"TSA.TsaRteOutputResults.npaResults.noPassingSupplSignVal",
+				"TSA.TsaRteOutputResults.slaResults.spdLmt[0].spdLmtValue",
+				"TSA.TsaRteOutputResults.slaResults.spdLmt[0].signType",
+				"TSA.TsaRteOutputResults.slaResults.spdLmt[0].spdLmtValidity",
+				"TSA.TsaRteOutputResults.slaResults.spdLmt[0].warning",
+				"TSA.TsaRteOutputResults.slaResults.spdLmt[1].spdLmtValue",
+				"TSA.TsaRteOutputResults.slaResults.spdLmt[1].signType",
+				"TSA.TsaRteOutputResults.slaResults.spdLmt[1].spdLmtValidity",
+				"TSA.TsaRteOutputResults.slaResults.spdLmt[1].warning",
+				"TSA.TsaRteOutputResults.wwaResults.wrongWayStatus",
+				"TSA.TsaRteOutputResults.wwaResults.bNoEntryDetected",
+				"TSA.TsaRteOutputResults.sSigHeader.uiMeasurementCounter"
+            ]
+        },     
+
+        "TSA.pAlgoCompState": {
+            "meas_freezes": [
+                "TSA.AlgoCompState.eCompState"
+            ]
+        }
+	} 
+}

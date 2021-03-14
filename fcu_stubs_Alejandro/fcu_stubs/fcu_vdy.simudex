@@ -1,0 +1,293 @@
+
+[PPort ps_rOdometer_Odometer]
+CfgSectionType = UdexProvidePort::SignalURL
+Name           = ps_rOdometer_Odometer
+URL.0          = CAN_FD_MFC_PUBLIC.ADAS_Vehicle_Bus_LRR_CAM_SRRs_MFC500.Tachometer.Odometer
+DataType       = simUI32_t
+
+
+[PPort ps_rEnvTemp_EnvTemp]
+CfgSectionType = UdexProvidePort::SignalURL
+Name           = ps_rEnvTemp_EnvTemp
+URL.0          = URL
+DataType       = simUI8_t
+
+
+[PPort ps_rVehVelocityExt_VehVelocityExt]
+CfgSectionType = UdexProvidePort::SignalURL
+Name           = ps_rVehVelocityExt_VehVelocityExt
+URL.0          = CAN_FD_MFC_PUBLIC.ADAS_Vehicle_Bus_LRR_CAM_SRRs_MFC500.VehVelocity.VehVelocityExt
+DataType       = simUI16_t
+
+
+[PPort ps_rVehLongAccelExt_VehLongAccelExt]
+CfgSectionType = UdexProvidePort::SignalURL
+Name           = ps_rVehLongAccelExt_VehLongAccelExt
+URL.0          = CAN_FD_MFC_PUBLIC.ADAS_Vehicle_Bus_LRR_CAM_SRRs_MFC500.VehLongAccel.VehLongAccelExt
+DataType       = simUI16_t
+
+
+[PPort ps_rFogLampRear_FogLampRear]
+CfgSectionType = UdexProvidePort::SignalURL
+Name           = ps_rFogLampRear_FogLampRear
+URL.0          = CAN_FD_MFC_PUBLIC.ADAS_Vehicle_Bus_LRR_CAM_SRRs_MFC500.Lights.FogLampRear
+DataType       = simUI8_t
+
+
+[PPort ps_rWhlVelFrRight_WhlVelFrRight]
+CfgSectionType = UdexProvidePort::SignalURL
+Name           = ps_rWhlVelFrRight_WhlVelFrRight
+URL.0          = CAN_FD_MFC_PUBLIC.ADAS_Vehicle_Bus_LRR_CAM_SRRs_MFC500.WhlVelFr.WhlVelFrRight
+DataType       = simUI16_t
+
+
+[PPort ps_rState_VehLongAccelExt_State_VehLongAccelExt]
+CfgSectionType = UdexProvidePort::SignalURL
+Name           = ps_rState_VehLongAccelExt_State_VehLongAccelExt
+URL.0          = CAN_FD_MFC_PUBLIC.ADAS_Vehicle_Bus_LRR_CAM_SRRs_MFC500.VehLongAccel.State_VehLongAccelExt
+DataType       = simUI8_t
+
+
+[PPort ps_rWhlVelReLeft_WhlVelReLeft]
+CfgSectionType = UdexProvidePort::SignalURL
+Name           = ps_rWhlVelReLeft_WhlVelReLeft
+URL.0          = CAN_FD_MFC_PUBLIC.ADAS_Vehicle_Bus_LRR_CAM_SRRs_MFC500.WhlVelRe.WhlVelReLeft
+DataType       = simUI16_t
+
+
+[PPort ps_reHeightLevel_eHeightLevel]
+CfgSectionType = UdexProvidePort::SignalURL
+Name           = ps_reHeightLevel_eHeightLevel
+URL.0          = URL
+DataType       = simUI8_t
+
+
+[PPort ps_rGasPedalPos_GasPedalPos]
+CfgSectionType = UdexProvidePort::SignalURL
+Name           = ps_rGasPedalPos_GasPedalPos
+URL.0          = CAN_FD_MFC_PUBLIC.ADAS_Vehicle_Bus_LRR_CAM_SRRs_MFC500.GasPedal.GasPedalPos
+DataType       = simUI16_t
+
+
+[PPort ps_rState_VehVelocity_State_VehVelocity]
+CfgSectionType = UdexProvidePort::SignalURL
+Name           = ps_rState_VehVelocity_State_VehVelocity
+URL.0          = CAN_FD_MFC_PUBLIC.ADAS_Vehicle_Bus_LRR_CAM_SRRs_MFC500.VehVelocity.State_VehVelocity
+DataType       = simUI8_t
+
+
+[PPort ps_rState_ActGearPos_State_ActGearPos]
+CfgSectionType = UdexProvidePort::SignalURL
+Name           = ps_rState_ActGearPos_State_ActGearPos
+URL.0          = CAN_FD_MFC_PUBLIC.ADAS_Vehicle_Bus_LRR_CAM_SRRs_MFC500.Gear.State_ActGearPos
+DataType       = simUI8_t
+
+
+[PPort ps_rActualGear_ActualGear]
+CfgSectionType = UdexProvidePort::SignalURL
+Name           = ps_rActualGear_ActualGear
+URL.0          = CAN_FD_MFC_PUBLIC.ADAS_Vehicle_Bus_LRR_CAM_SRRs_MFC500.Gear.ActualGear
+DataType       = simUI8_t
+
+
+[PPort ps_rState_YawRate_State_YawRate]
+CfgSectionType = UdexProvidePort::SignalURL
+Name           = ps_rState_YawRate_State_YawRate
+URL.0          = CAN_FD_MFC_PUBLIC.ADAS_Vehicle_Bus_LRR_CAM_SRRs_MFC500.YawRate.State_YawRate
+DataType       = simUI8_t
+
+
+[PPort ps_rTrailerConnection_TrailerConnection]
+CfgSectionType = UdexProvidePort::SignalURL
+Name           = ps_rTrailerConnection_TrailerConnection
+URL.0          = URL
+DataType       = simUI8_t
+
+
+[PPort ps_rYawRate_YawRate]
+CfgSectionType = UdexProvidePort::SignalURL
+Name           = ps_rYawRate_YawRate
+URL.0          = CAN_FD_MFC_PUBLIC.ADAS_Vehicle_Bus_LRR_CAM_SRRs_MFC500.YawRate.YawRate
+DataType       = simUI16_t
+
+
+[PPort ps_rFogLampFront_FogLampFront]
+CfgSectionType = UdexProvidePort::SignalURL
+Name           = ps_rFogLampFront_FogLampFront
+URL.0          = CAN_FD_MFC_PUBLIC.ADAS_Vehicle_Bus_LRR_CAM_SRRs_MFC500.Lights.FogLampFront
+DataType       = simUI8_t
+
+
+[PPort ps_rState_WhlVelFrLeft_State_WhlVelFrLeft]
+CfgSectionType = UdexProvidePort::SignalURL
+Name           = ps_rState_WhlVelFrLeft_State_WhlVelFrLeft
+URL.0          = CAN_FD_MFC_PUBLIC.ADAS_Vehicle_Bus_LRR_CAM_SRRs_MFC500.WhlVelFr.State_WhlVelFrLeft
+DataType       = simUI8_t
+
+
+[PPort ps_rActGearPos_ActGearPos]
+CfgSectionType = UdexProvidePort::SignalURL
+Name           = ps_rActGearPos_ActGearPos
+URL.0          = CAN_FD_MFC_PUBLIC.ADAS_Vehicle_Bus_LRR_CAM_SRRs_MFC500.Gear.ActGearPos
+DataType       = simUI8_t
+
+
+[PPort ps_rState_WhlVelReLeft_State_WhlVelReLeft]
+CfgSectionType = UdexProvidePort::SignalURL
+Name           = ps_rState_WhlVelReLeft_State_WhlVelReLeft
+URL.0          = CAN_FD_MFC_PUBLIC.ADAS_Vehicle_Bus_LRR_CAM_SRRs_MFC500.WhlVelRe.State_WhlVelReLeft
+DataType       = simUI8_t
+
+
+[PPort ps_rVehLongDirExt_VehLongDirExt]
+CfgSectionType = UdexProvidePort::SignalURL
+Name           = ps_rVehLongDirExt_VehLongDirExt
+URL.0          = CAN_FD_MFC_PUBLIC.ADAS_Vehicle_Bus_LRR_CAM_SRRs_MFC500.VehVelocity.VehLongDirExt
+DataType       = simUI8_t
+
+
+[PPort ps_rState_WhlVelReRight_State_WhlVelReRight]
+CfgSectionType = UdexProvidePort::SignalURL
+Name           = ps_rState_WhlVelReRight_State_WhlVelReRight
+URL.0          = CAN_FD_MFC_PUBLIC.ADAS_Vehicle_Bus_LRR_CAM_SRRs_MFC500.WhlVelRe.State_WhlVelReRight
+DataType       = simUI8_t
+
+
+[PPort ps_rWiperStage_WiperStage]
+CfgSectionType = UdexProvidePort::SignalURL
+Name           = ps_rWiperStage_WiperStage
+URL.0          = CAN_FD_MFC_PUBLIC.ADAS_Vehicle_Bus_LRR_CAM_SRRs_MFC500.Wiper.WiperStage
+DataType       = simUI8_t
+
+
+[PPort ps_rState_GasPedalPos_State_GasPedalPos]
+CfgSectionType = UdexProvidePort::SignalURL
+Name           = ps_rState_GasPedalPos_State_GasPedalPos
+URL.0          = CAN_FD_MFC_PUBLIC.ADAS_Vehicle_Bus_LRR_CAM_SRRs_MFC500.GasPedal.GasPedalPos
+DataType       = simUI8_t
+
+
+[PPort ps_rStateBrakeActLevel_StateBrakeActLevel]
+CfgSectionType = UdexProvidePort::SignalURL
+Name           = ps_rStateBrakeActLevel_StateBrakeActLevel
+URL.0          = CAN_FD_MFC_PUBLIC.ADAS_Vehicle_Bus_LRR_CAM_SRRs_MFC500.Brake.StateBrakeActLevel
+DataType       = simUI8_t
+
+
+[PPort ps_rLatAccel_LatAccel]
+CfgSectionType = UdexProvidePort::SignalURL
+Name           = ps_rLatAccel_LatAccel
+URL.0          = CAN_FD_MFC_PUBLIC.ADAS_Vehicle_Bus_LRR_CAM_SRRs_MFC500.LatAccel.LatAccel
+DataType       = simUI16_t
+
+
+[PPort ps_rTurnSignal_TurnSignal]
+CfgSectionType = UdexProvidePort::SignalURL
+Name           = ps_rTurnSignal_TurnSignal
+URL.0          = CAN_FD_MFC_PUBLIC.ADAS_Vehicle_Bus_LRR_CAM_SRRs_MFC500.Lights.TurnSignal
+DataType       = simUI8_t
+
+
+[PPort ps_rBrakeActLevel_BrakeActLevel]
+CfgSectionType = UdexProvidePort::SignalURL
+Name           = ps_rBrakeActLevel_BrakeActLevel
+URL.0          = CAN_FD_MFC_PUBLIC.ADAS_Vehicle_Bus_LRR_CAM_SRRs_MFC500.Brake.BrakeActLevel
+DataType       = simUI16_t
+
+
+[PPort ps_rState_WhlVelFrRight_State_WhlVelFrRight]
+CfgSectionType = UdexProvidePort::SignalURL
+Name           = ps_rState_WhlVelFrRight_State_WhlVelFrRight
+URL.0          = CAN_FD_MFC_PUBLIC.ADAS_Vehicle_Bus_LRR_CAM_SRRs_MFC500.WhlVelFr.State_WhlVelFrRight
+DataType       = simUI8_t
+
+
+[PPort ps_rState_StWheelAngle_State_StWheelAngle]
+CfgSectionType = UdexProvidePort::SignalURL
+Name           = ps_rState_StWheelAngle_State_StWheelAngle
+URL.0          = CAN_FD_MFC_PUBLIC.ADAS_Vehicle_Bus_LRR_CAM_SRRs_MFC500.StWheeleAngle.State_StWheelAngle
+DataType       = simUI8_t
+
+
+[PPort ps_rSpeedoSpeed_SpeedoSpeed]
+CfgSectionType = UdexProvidePort::SignalURL
+Name           = ps_rSpeedoSpeed_SpeedoSpeed
+URL.0          = CAN_FD_MFC_PUBLIC.ADAS_Vehicle_Bus_LRR_CAM_SRRs_MFC500.Tachometer.SpeedoSpeed
+DataType       = simUI16_t
+
+
+[PPort ps_rParkBrake_ParkBrake]
+CfgSectionType = UdexProvidePort::SignalURL
+Name           = ps_rParkBrake_ParkBrake
+URL.0          = CAN_FD_MFC_PUBLIC.ADAS_Vehicle_Bus_LRR_CAM_SRRs_MFC500.Brake.ParkBrake
+DataType       = simUI8_t
+
+
+[PPort ps_rWhlVelFrLeft_WhlVelFrLeft]
+CfgSectionType = UdexProvidePort::SignalURL
+Name           = ps_rWhlVelFrLeft_WhlVelFrLeft
+URL.0          = CAN_FD_MFC_PUBLIC.ADAS_Vehicle_Bus_LRR_CAM_SRRs_MFC500.WhlVelFr.WhlVelFrLeft
+DataType       = simUI16_t
+
+
+[PPort ps_rState_LatAccel_State_LatAccel]
+CfgSectionType = UdexProvidePort::SignalURL
+Name           = ps_rState_LatAccel_State_LatAccel
+URL.0          = CAN_FD_MFC_PUBLIC.ADAS_Vehicle_Bus_LRR_CAM_SRRs_MFC500.LatAccel.State_LatAccel
+DataType       = simUI8_t
+
+
+[PPort ps_rDriverBraking_DriverBraking]
+CfgSectionType = UdexProvidePort::SignalURL
+Name           = ps_rDriverBraking_DriverBraking
+URL.0          = CAN_FD_MFC_PUBLIC.ADAS_Vehicle_Bus_LRR_CAM_SRRs_MFC500.Brake.DriverBraking
+DataType       = simUI8_t
+
+
+[PPort ps_rVehLongMotStateExt_VehLongMotStateExt]
+CfgSectionType = UdexProvidePort::SignalURL
+Name           = ps_rVehLongMotStateExt_VehLongMotStateExt
+URL.0          = CAN_FD_MFC_PUBLIC.ADAS_Vehicle_Bus_LRR_CAM_SRRs_MFC500.VehVelocity.VehLongMotStateExt
+DataType       = simUI8_t
+
+
+[PPort ps_rSpeedUnit_SpeedUnit]
+CfgSectionType = UdexProvidePort::SignalURL
+Name           = ps_rSpeedUnit_SpeedUnit
+URL.0          = CAN_FD_MFC_PUBLIC.ADAS_Vehicle_Bus_LRR_CAM_SRRs_MFC500.Tachometer.SpeedUnit
+DataType       = simUI8_t
+
+
+[PPort ps_rWiperState_WiperState]
+CfgSectionType = UdexProvidePort::SignalURL
+Name           = ps_rWiperState_WiperState
+URL.0          = CAN_FD_MFC_PUBLIC.ADAS_Vehicle_Bus_LRR_CAM_SRRs_MFC500.Wiper.WiperState
+DataType       = simUI8_t
+
+
+[PPort ps_rStWheelAngle_StWheelAngle]
+CfgSectionType = UdexProvidePort::SignalURL
+Name           = ps_rStWheelAngle_StWheelAngle
+URL.0          = CAN_FD_MFC_PUBLIC.ADAS_Vehicle_Bus_LRR_CAM_SRRs_MFC500.StWheeleAngle.StWheelAngle
+DataType       = simUI16_t
+
+
+[PPort ps_rWhlVelReRight_WhlVelReRight]
+CfgSectionType = UdexProvidePort::SignalURL
+Name           = ps_rWhlVelReRight_WhlVelReRight
+URL.0          = CAN_FD_MFC_PUBLIC.ADAS_Vehicle_Bus_LRR_CAM_SRRs_MFC500.WhlVelRe.WhlVelReRight
+DataType       = simUI16_t
+
+
+[PPort ps_rStateParkBrake_StateParkBrake]
+CfgSectionType = UdexProvidePort::SignalURL
+Name           = ps_rStateParkBrake_StateParkBrake
+URL.0          = CAN_FD_MFC_PUBLIC.ADAS_Vehicle_Bus_LRR_CAM_SRRs_MFC500.Brake.StateParkBrake
+DataType       = simUI8_t
+
+
+[PPort ps_rWiperOutParkPos_WiperOutParkPos]
+CfgSectionType = UdexProvidePort::SignalURL
+Name           = ps_rWiperOutParkPos_WiperOutParkPos
+URL.0          = CAN_FD_MFC_PUBLIC.ADAS_Vehicle_Bus_LRR_CAM_SRRs_MFC500.Wiper.WiperOutParkPos
+DataType       = simUI8_t

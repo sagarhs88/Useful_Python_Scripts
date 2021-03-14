@@ -1,0 +1,450 @@
+{
+    "exporter": {
+        "default": {
+            "cycle_id": "0x48",
+            "name": "Sil Sil Exporter",
+            "rec_file_extension": "",
+            "signals": []
+        }
+    },
+    "signals": {
+        
+        "ACAL.pAlgoCompState             ": {
+            "meas_freezes": [
+                "ACAL.pAcalOutCompState"
+            ]
+        },     
+
+        "ACAL.pMonoCalibration           ": {
+            "meas_freezes": [
+                "ACAL.pMonoCalibration"
+            ]
+        },     
+
+        "ACAL.pMonoCalibrationEol ": {
+            "meas_freezes": [
+                "ACAL.pMonoCalibrationEol"
+            ]
+        },     
+
+        "CB.pCbOutputs    ": {
+            "meas_freezes": [
+                "CB.pCbRteOut"
+            ]
+        },     
+
+        "CB.pAlgoCompState": {
+            "meas_freezes": [
+                "CB.pCbAlgoCompState"
+            ]
+        },     
+
+        "CHIPS.pOddYP2Image ": {
+            "meas_freezes": [
+                "CHIPS.ChipsOddYP2Image"
+            ]
+        },     
+
+        "CHIPS.pOddYP3Image ": {
+            "meas_freezes": [
+                "CHIPS.ChipsOddYP3Image"
+            ]
+        },     
+
+        "CHIPS.pOddYP4Image ": {
+            "meas_freezes": [
+                "CHIPS.ChipsOddYP4Image"
+            ]
+        },     
+
+        "CHIPS.pOddYP5Image ": {
+            "meas_freezes": [
+                "CHIPS.ChipsOddYP5Image"
+            ]
+        },     
+
+        "CHIPS.pOddYP6Image ": {
+            "meas_freezes": [
+                "CHIPS.ChipsOddYP6Image"
+            ]
+        },     
+
+        "CHIPS.pOddUVP3Image": {
+            "meas_freezes": [
+                "CHIPS.ChipsOddUVP3Image"
+            ]
+        },     
+
+        "CHIPS.pOddUVP4Image": {
+            "meas_freezes": [
+                "CHIPS.ChipsOddUVP4Image"
+            ]
+        },     
+
+        "CHIPS.pOddUVP5Image": {
+            "meas_freezes": [
+                "CHIPS.ChipsOddUVP5Image"
+            ]
+        },     
+
+        "CHIPS.pOddUVP6Image": {
+            "meas_freezes": [
+                "CHIPS.ChipsOddUVP6Image"
+            ]
+        },     
+
+        "CHIPS.pEvenYP2Image      ": {
+            "meas_freezes": [
+                "CHIPS.ChipsOddYP2Image"
+            ]
+        },     
+
+        "CHIPS.pEvenYP3Image      ": {
+            "meas_freezes": [
+                "CHIPS.ChipsOddYP3Image"
+            ]
+        },     
+
+        "CHIPS.pEvenYP4Image      ": {
+            "meas_freezes": [
+                "CHIPS.ChipsOddYP4Image"
+            ]
+        },     
+
+        "CHIPS.pEvenYP5Image      ": {
+            "meas_freezes": [
+                "CHIPS.ChipsOddYP5Image"
+            ]
+        },     
+
+        "CHIPS.pEvenYP6Image  ": {
+            "meas_freezes": [
+                "CHIPS.ChipsOddYP6Image"
+            ]
+        },     
+
+        "CHIPS.pEvenUVP3Image     ": {
+            "meas_freezes": [
+                "CHIPS.ChipsOddUVP3Image"
+            ]
+        },     
+
+        "CHIPS.pEvenUVP4Image     ": {
+            "meas_freezes": [
+                "CHIPS.ChipsOddUVP4Image"
+            ]
+        },     
+
+        "CHIPS.pEvenUVP5Image     ": {
+            "meas_freezes": [
+                "CHIPS.ChipsOddUVP5Image"
+            ]
+        },     
+
+        "CHIPS.pEvenUVP6Image     ": {
+            "meas_freezes": [
+                "CHIPS.ChipsOddUVP6Image"
+            ]
+        },     
+
+        "CHIPS.pAlgoCompState ": {
+            "meas_freezes": [
+                "CHIPS.ChipsAlgoCompState"
+            ]
+        },     
+
+        "EM.pGenObjectList          ": {
+            "meas_freezes": [
+                "EM.EmGenObjectList"
+            ]
+        },     
+
+        "EM.pCamObjectList          ": {
+            "meas_freezes": [
+                "EM.EmCamObjectList"
+            ]
+        },     
+
+        "EM.pGenObjectListPredicted ": {
+            "meas_freezes": [
+                "EM.EmGenObjectListPredicted"
+            ]
+        },     
+
+        "EM.pCamObjectListPredicted ": {
+            "meas_freezes": [
+                "EM.EmCamObjectListPredicted"
+            ]
+        },     
+
+        "EM.pAlgoCompState          ": {
+            "meas_freezes": [
+                "EM.EmAlgoCompState"
+            ]
+        },     
+
+        "EM.pRum2ImgProcRqs ": {
+            "meas_freezes": [
+                "EM.EmRum2ImgProcRqs"
+            ]
+        },     
+
+        "EMO.pAlgoCompState": {
+            "meas_freezes": [
+                "EMO.EmoCompState"
+            ]
+        },     
+
+        "EMO.pEmoOutput": {
+            "meas_freezes": [
+                "EMO.EmoOutput"
+            ]
+        },     
+
+        "GEOS.pAlgoCompState": {
+            "meas_freezes": [
+                "GEOS.GeosAlgoCompState"
+            ]
+        },     
+
+        "GEOS.pGeosBasicTracks": {
+            "meas_freezes": [
+                "GEOS.GeosBasicTracks"
+            ]
+        },     
+
+        "GEOS.pGeosExtendedTracks": {
+            "meas_freezes": [
+                "GEOS.GeosExtendedTracks"
+            ]
+        },     
+
+        "GEOS.pGeosSegmentation": {
+            "meas_freezes": [
+                "GEOS.GeosSegmentation"
+            ]
+        },     
+
+        "GRAPPA.pAlgoCompState ": {
+            "meas_freezes": [
+                "GRAPPA.GrappaAlgoCompState"
+            ]
+        },     
+
+        "GRAPPA.pDetectionResults": {
+            "meas_freezes": [
+                "GRAPPA.GrappaDetectionResults"
+            ]
+        },     
+
+        "GRAPPA.pLaneResults     ": {
+            "meas_freezes": [
+                "GRAPPA.GrappaLaneResults"
+            ]
+        },     
+
+        "GRAPPA.pSemSeg ": {
+            "meas_freezes": [
+                "GRAPPA.GrappaSemSeg"
+            ]
+        },     
+
+        "GS.pAcalCtrlData": {
+            "meas_freezes": [
+                "ACAL.pAcalSyncRef.sBaseCtrl"
+            ]
+        },     
+
+        "GS.pCbCtrlData": {
+            "meas_freezes": [
+                "CB.CbSyncRef.sBaseCtrl"
+            ]
+        },     
+
+        "GS.pChipsCtrlData": {
+            "meas_freezes": [
+                "CHIPS.ChipsSyncRef.sBaseCtrl"
+            ]
+        },     
+
+        "GS.pEmCtrlData": {
+            "meas_freezes": [
+                "EM.EmSyncRef.sBaseCtrl"
+            ]
+        },     
+
+        "GS.pEmoCtrlData": {
+            "meas_freezes": [
+                "EMO.EmoSyncRef.sBaseCtrl"
+            ]
+        },     
+
+        "GS.pGeosCtrlData": {
+            "meas_freezes": [
+                "GEOS.GeosSyncRef.sBaseCtrl"
+            ]
+        },     
+
+        "GS.pGrappaCtrlData": {
+            "meas_freezes": [
+                "GRAPPA.GRAPPA_SyncRef.sBaseCtrl"
+            ]
+        },     
+
+        "GS.pLdCtrlData": {
+            "meas_freezes": [
+                "LD.LDSyncRef.sBaseCtrl"
+            ]
+        },     
+
+        "GS.pLmkCtrlData": {
+            "meas_freezes": [
+                "LMK.LmkSyncRef.sBaseCtrl"
+            ]
+        },     
+
+        "GS.pLsdCtrlData": {
+            "meas_freezes": [
+                "LSD.Lsd_SyncRef.sBaseCtrl"
+            ]
+        },     
+
+        "GS.pPfcCtrlData": {
+            "meas_freezes": [
+                "PFC.PFCRequestPorts.sBaseCtrl"
+            ]
+        },     
+
+        "GS.pRumCtrlData": {
+            "meas_freezes": [
+                "RUM.RumSyncRef.sBaseCtrl"
+            ]
+        },     
+
+        "GS.pSrCtrlData": {
+            "meas_freezes": [
+                "SR.Sr_SyncRef.sBaseCtrl"
+            ]
+        },     
+
+        "ISP.pImageUVEven": {
+            "meas_freezes": [
+                "ISP.ISPEvenUVImage"
+            ]
+        },     
+
+        "ISP.pImageUVOdd": {
+            "meas_freezes": [
+                "ISP.ISPOddUVImage"
+            ]
+        },     
+
+        "ISP.pImageYEven": {
+            "meas_freezes": [
+                "ISP.ISPEvenYImage"
+            ]
+        },     
+
+        "ISP.pImageYOdd": {
+            "meas_freezes": [
+                "ISP.ISPOddYImage"
+            ]
+        },     
+
+        "LD.pAlgoCompState": {
+            "meas_freezes": [
+                "LD.AlgoCompState"
+            ]
+        },     
+
+        "LD.pAbdOutputData": {
+            "meas_freezes": [
+                "LD.ABDLaneData"
+            ]
+        },     
+
+        "LMK.pAlgoCompState": {
+            "meas_freezes": [
+                "LMK.LmkAlgoCompState"
+            ]
+        },     
+
+        "LMK.pGenLandmarkList": {
+            "meas_freezes": [
+                "LMK.LmkGenLandmarkList"
+            ]
+        },     
+
+        "LSD.pAlgoCompState  ": {
+            "meas_freezes": [
+                "LSD.LsdProPortAlgoCompState"
+            ]
+        },     
+
+        "LSD.pLightList      ": {
+            "meas_freezes": [
+                "LSD.LsdProPortLightList"
+            ]
+        },     
+
+        "LSD.pEnvironmentData": {
+            "meas_freezes": [
+                "LSD.LsdProPortEnvironmentData"
+            ]
+        },     
+
+        "LSD.pLightObjectList": {
+            "meas_freezes": [
+                "LSD.LsdProPortLightObjectList"
+            ]
+        },     
+
+        "PFC.pAlgoCompState": {
+            "meas_freezes": [
+                "PFC.PFCAlgoCompState"
+            ]
+        },     
+
+        "PFC.pFlowImage": {
+            "meas_freezes": [
+                "PFC.PFCFlowImage"
+            ]
+        },     
+
+        "RUM.pAlgoCompState": {
+            "meas_freezes": [
+                "RUM.RumAlgoCompState"
+            ]
+        },     
+
+        "RUM.pRum2Clusters": {
+            "meas_freezes": [
+                "RUM.Rum2Clusters"
+            ]
+        },     
+
+        "RUM.pRum2ImgProcRsps": {
+            "meas_freezes": [
+                "RUM.Rum2ImageProcessingResponses"
+            ]
+        },     
+
+        "SR.pAlgoCompState": {
+            "meas_freezes": [
+                "SR.SrAlgoCompState"
+            ]
+        },     
+
+        "SR.pSRRTEOutput": {
+            "meas_freezes": [
+                "SR.SR_RTE_Output"
+            ]
+        },     
+
+        "SR.pSrDetectionOutput": {
+            "meas_freezes": [
+                "SR.SR_DetectionOutput"
+            ]
+        }
+	} 
+}

@@ -1,0 +1,251 @@
+{
+    "exporter": {
+        "default": {
+            "cycle_id": "0x48",
+            "name": "Sil Sil Exporter",
+            "rec_file_extension": "",
+            "signals": []
+        }
+    },
+    "signals": {
+        
+        "ISP.pImageUVEven": {
+            "meas_freezes": [
+                "ISP.ISPEvenUVImage.sSigHeader",
+				"ISP.ISPEvenUVImage.sImgHeader.uiFingerprint"
+            ]
+        },     
+
+        "ISP.pImageUVOdd": {
+            "meas_freezes": [
+                "ISP.ISPOddUVImage.sSigHeader",
+				"ISP.ISPOddUVImage.sImgHeader.uiFingerprint"
+            ]
+        },     
+
+        "ISP.pImageYEven": {
+            "meas_freezes": [
+                "ISP.ISPEvenYImage.sSigHeader",
+				"ISP.ISPEvenYImage.sImgHeader.uiFingerprint"
+            ]
+        },     
+
+        "ISP.pImageYOdd": {
+            "meas_freezes": [
+                "ISP.ISPOddYImage.sSigHeader",
+				"ISP.ISPOddYImage.sImgHeader.uiFingerprint"
+            ]
+        },     
+
+        "CHIPS.pOddYP2Image ": {
+            "meas_freezes": [
+                "CHIPS.ChipsOddYP2Image.sSigHeader",
+				"CHIPS.ChipsOddYP2Image.sImgHeader.uiFingerprint"
+            ]
+        },     
+
+        "CHIPS.pOddYP3Image": {
+            "meas_freezes": [
+                "CHIPS.ChipsOddYP3Image.sSigHeader",
+				"CHIPS.ChipsOddYP3Image.sImgHeader.uiFingerprint"
+            ]
+        },     
+
+        "CHIPS.pOddYP4Image ": {
+            "meas_freezes": [
+                "CHIPS.ChipsOddYP4Image.sSigHeader",
+				"CHIPS.ChipsOddYP4Image.sImgHeader.uiFingerprint"
+            ]
+        },     
+
+        "CHIPS.pOddYP5Image": {
+            "meas_freezes": [
+                "CHIPS.ChipsOddYP5Image.sSigHeader"
+            ]
+        },     
+
+        "CHIPS.pOddYP5Image  ": {
+            "meas_freezes": [
+                "CHIPS.ChipsOddYP5Image.sImgHeader.uiFingerprint"
+            ]
+        },     
+
+        "CHIPS.pOddYP6Image": {
+            "meas_freezes": [
+                "CHIPS.ChipsOddYP6Image.sSigHeader"
+            ]
+        },     
+
+        "CHIPS.pOddYP6Image  ": {
+            "meas_freezes": [
+                "CHIPS.ChipsOddYP6Image.sImgHeader.uiFingerprint"
+            ]
+        },     
+
+        "CHIPS.pOddUVP3Image": {
+            "meas_freezes": [
+                "CHIPS.ChipsOddUVP3Image.sSigHeader",
+				"CHIPS.ChipsOddUVP3Image.sImgHeader.uiFingerprint"
+            ]
+        },     
+
+        "CHIPS.pOddUVP4Image": {
+            "meas_freezes": [
+                "CHIPS.ChipsOddUVP4Image.sSigHeader",
+				"CHIPS.ChipsOddUVP4Image.sImgHeader.uiFingerprint"
+            ]
+        },     
+
+        "CHIPS.pOddUVP5Image": {
+            "meas_freezes": [
+                "CHIPS.ChipsOddUVP5Image.sSigHeader",
+				"CHIPS.ChipsOddUVP5Image.sImgHeader.uiFingerprint"
+            ]
+        },     
+
+        "CHIPS.pOddUVP6Image": {
+            "meas_freezes": [
+                "CHIPS.ChipsOddUVP6Image.sSigHeader",
+				"CHIPS.ChipsOddUVP6Image.sImgHeader.uiFingerprint"
+            ]
+        },     
+
+        "CHIPS.pEvenYP2Image": {
+            "meas_freezes": [
+                "CHIPS.ChipsEvenYP2Image.sSigHeader",
+				"CHIPS.ChipsEvenYP2Image.sImgHeader.uiFingerprint"
+            ]
+        },     
+
+        "CHIPS.pEvenYP3Image": {
+            "meas_freezes": [
+                "CHIPS.ChipsEvenYP3Image.sSigHeader",
+				"CHIPS.ChipsEvenYP3Image.sImgHeader.uiFingerprint"
+            ]
+        },     
+
+        "CHIPS.pEvenYP4Image": {
+            "meas_freezes": [
+                "CHIPS.ChipsEvenYP4Image.sSigHeader",
+				"CHIPS.ChipsEvenYP4Image.sImgHeader.uiFingerprint"
+            ]
+        },     
+
+        "CHIPS.pEvenYP5Image": {
+            "meas_freezes": [
+                "CHIPS.ChipsEvenYP5Image.sSigHeader",
+				"CHIPS.ChipsEvenYP5Image.sImgHeader.uiFingerprint"
+            ]
+        },     
+
+        "CHIPS.pEvenYP6Image": {
+            "meas_freezes": [
+                "CHIPS.ChipsEvenYP6Image.sSigHeader",
+				"CHIPS.ChipsEvenYP6Image.sImgHeader.uiFingerprint"
+            ]
+        },     
+
+        "CHIPS.pEvenUVP3Image": {
+            "meas_freezes": [
+                "CHIPS.ChipsEvenUVP3Image.sSigHeader",
+				"CHIPS.ChipsEvenUVP3Image.sImgHeader.uiFingerprint"
+            ]
+        },     
+
+        "CHIPS.pEvenUVP4Image": {
+            "meas_freezes": [
+                "CHIPS.ChipsEvenUVP4Image.sSigHeader",
+				"CHIPS.ChipsEvenUVP4Image.sImgHeader.uiFingerprint"
+            ]
+        },     
+
+        "CHIPS.pEvenUVP5Image": {
+            "meas_freezes": [
+                "CHIPS.ChipsEvenUVP5Image.sSigHeader",
+				"CHIPS.ChipsEvenUVP5Image.sImgHeader.uiFingerprint"
+            ]
+        },     
+
+        "CHIPS.pEvenUVP6Image": {
+            "meas_freezes": [
+                "CHIPS.ChipsEvenUVP6Image.sSigHeader",
+				"CHIPS.ChipsEvenUVP6Image.sImgHeader.uiFingerprint"
+            ]
+        },     
+
+        "CHIPS.pOddImageBv": {
+            "meas_freezes": [
+                "CHIPS.ChipsOddImageBv.sSigHeader"
+            ]
+        },     
+
+        "CHIPS.pOddImageBv ": {
+            "meas_freezes": [
+                "CHIPS.ChipsOddImageBv.sImgHeader.uiFingerprint"
+            ]
+        },     
+
+        "PFC.pFlowImage": {
+            "meas_freezes": [
+                "PFC.PFCFlowImage.sSigHeader",
+				"PFC.PFCFlowImage.sImgHeader.uiFingerprint",
+				"PFC.PFCFlowImage.sPrevImgSigHeader",
+				"PFC.PFCFlowImage.pFlowData"
+            ]
+        },     
+
+        "GRAPPA.pSemSeg": {
+            "meas_freezes": [
+                "GRAPPA.GrappaSemSeg.sSigHeader",
+				"GRAPPA.GrappaSemSeg.sImgHeader.uiFingerprint",
+				"GRAPPA.GrappaSemSeg.pSemSegData"
+            ]
+        },     
+
+        "GRAPPA.pLaneResults": {
+            "meas_freezes": [
+                "GRAPPA.GrappaLaneResults.sSigHeader",
+				"GRAPPA.GrappaLaneResults.sEgoLane",
+				"GRAPPA.GrappaLaneResults.sAdjacentLanesLeft",
+				"GRAPPA.GrappaLaneResults.sAdjacentLanesRight",
+				"GRAPPA.GrappaLaneResults.sLaneChangeConstruct",
+				"GRAPPA.GrappaLaneResults.sRoad"
+            ]
+        },     
+
+        "GRAPPA.pDetectionResults ": {
+            "meas_freezes": [
+                "GRAPPA.GrappaDetectionResults.sSigHeader",
+				"GRAPPA.GrappaDetectionResults.sNumResults",
+				"GRAPPA.GrappaDetectionResults.GrappaDetections",
+				"GRAPPA.GrappaDetectionResults.GrappaDetectionIndexes"
+            ]
+        },     
+
+        "GEOS.pGeosSegmentation": {
+            "meas_freezes": [
+                "GEOS.GeosSegmentation.sSigHeader",
+				"GEOS.GeosSegmentation.sPrevImgSigHeader",
+				"GEOS.GeosSegmentation.aSegments"
+            ]
+        },     
+
+        "GEOS.pGeosExtendedTracks": {
+            "meas_freezes": [
+                "GEOS.GeosExtendedTracks.sSigHeader",
+				"GEOS.GeosExtendedTracks.sPrevImgSigHeader",
+				"GEOS.GeosExtendedTracks.uiNrOfFlowFeatures",
+				"GEOS.GeosExtendedTracks.aValidFlowFeatureIdx"
+            ]
+        },     
+
+        "GEOS.pGeosBasicTracks": {
+            "meas_freezes": [
+                "GEOS.GeosBasicTracks.sSigHeader",
+				"GEOS.GeosBasicTracks.sPrevImgSigHeader",
+				"GEOS.GeosBasicTracks.aFlowFeatures",
+				"GEOS.GeosBasicTracks.uiNrOfFlowFeatures"
+            ]
+        }
+	} 
+}

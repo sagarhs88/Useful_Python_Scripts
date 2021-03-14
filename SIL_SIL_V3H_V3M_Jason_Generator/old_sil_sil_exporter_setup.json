@@ -1,0 +1,23 @@
+{
+    "exporter": {
+        "default": {
+            "cycle_id": "0x48",
+            "name": "Sil Sil Exporter",
+            "rec_file_extension": "",
+            "signals": []
+        }
+    },
+    "signals": {
+        "ISP.pImageUVEven": {
+            "meas_freezes": [
+                "ISP.ISPEvenUVImage.sImgHeader.uiFingerprint"
+            ]
+        },     
+        "ISP.pImageUVOdd": {
+            "meas_freezes": [
+                "ISP.ISPOddUVImage.sSigHeader",
+                "ISP.ISPOddUVImage.sImgHeader.uiFingerprint"
+            ]
+        }
+    }
+}
