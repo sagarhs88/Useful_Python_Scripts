@@ -1,0 +1,3 @@
+-b D:\Sil_SIL_Any_Script\data
+-o D:\Sil_SIL_Any_Script\output_path
+-j D:\Sil_SIL_Any_Script\SilSil_test.xml

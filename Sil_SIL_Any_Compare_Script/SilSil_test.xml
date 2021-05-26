@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='silsil_junit.xslt'?>
+<testsuites errors="0" failures="0" skipped="0" tests="20" time="0.0">
+	<properties>
+		<property name="Checkpoint" value="N o   c h e c k p o i n t   s p e c i f i e d !"/>
+		<property name="Date" value="Wed 26. May 2021, 19:18"/>
+		<property name="Test Result" value="True"/>
+		<property name="Author" value="uids3923"/>
+	</properties>
+	<testsuite errors="0" failures="0" name="2020.07.16_at_11.44.10_camera-mi_244_ext_LI-DC620_SW2020_7_14_00001_00002" skipped="0" tests="20" time="0">
+		<testcase name="ACAL.pAcalOutCompState"/>
+		<testcase name="CB.pCbAlgoCompState"/>
+		<testcase name="CHIPS.ChipsAlgoCompState"/>
+		<testcase name="CP.CP_Version"/>
+		<testcase name="EM.EmAlgoCompState"/>
+		<testcase name="EMO.EmoCompState"/>
+		<testcase name="FCTSensor.FCTSenCompState"/>
+		<testcase name="FS.FsAlgoCompState"/>
+		<testcase name="GDR.GdrAlgoCompState"/>
+		<testcase name="GEOS.GeosAlgoCompState"/>
+		<testcase name="GRAPPA.GrappaAlgoCompState"/>
+		<testcase name="HLA.HlaAlgoCompState"/>
+		<testcase name="LD.AlgoCompState"/>
+		<testcase name="LMK.LmkAlgoCompState"/>
+		<testcase name="LSD.LsdProPortAlgoCompState"/>
+		<testcase name="PFC.PFCAlgoCompState"/>
+		<testcase name="RUM.RumAlgoCompState"/>
+		<testcase name="SR.SrAlgoCompState"/>
+		<testcase name="SimImagePorts.SIM Image Right"/>
+		<testcase name="TSA.AlgoCompState"/>
+	</testsuite>
+</testsuites>
